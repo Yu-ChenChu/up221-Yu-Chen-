@@ -1,0 +1,464 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13284583
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2021 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2021 (5-Year Estimates)
+Tables:
+
+      1. Household Income in the Past 12 Months (In <DollarYear> Inflation-Adjusted Dollars) (Renter-Occupied Housing Units)
+         Universe:  Universe:  Renter-Occupied Housing Units
+         Name:      A14003B
+         Variables:
+            A14003B_001:   Renter-Occupied Housing Units:
+            A14003B_002:      Less than $5,000
+            A14003B_003:      $5,000 to $9,999
+            A14003B_004:      $10,000 to $14,999
+            A14003B_005:      $15,000 to $19,999
+            A14003B_006:      $20,000 to $24,999
+            A14003B_007:      $25,000 to $34,999
+            A14003B_008:      $35,000 to $49,999
+            A14003B_009:      $50,000 to $74,999
+            A14003B_010:      $75,000 to $99,999
+            A14003B_011:      $100,000 to $149,999
+            A14003B_012:      $150,000 or More
+
+
+      2. Median Household Income the Past 12 Months (In <DollarYear> Inflation-Adjusted Dollars) (Renter-Occupied Housing Units)
+         Universe:  Universe:  Renter-Occupied Housing Units
+         Name:      A14016
+         Variables:
+            A14016_001:   Median Household Income in the Past 12 Months (In Inflation-Adjusted Dollars)
+
+
+      3. Housing Units by Housing Costs as a Percentage of Household Income in the Past 12 Months
+         Universe:  Universe:  Occupied housing units
+         Name:      A10026
+         Variables:
+            A10026_001:   Occupied Housing Units:
+            A10026_002:      Less than $20,000:
+            A10026_003:         Less than 20 Percent
+            A10026_004:         20 to 29 Percent
+            A10026_005:         30 Percent or More
+            A10026_006:      $20,000 to $34,999:
+            A10026_007:         Less than 20 Percent
+            A10026_008:         20 to 29 Percent
+            A10026_009:         30 Percent or More
+            A10026_010:      $35,000 to $49,999:
+            A10026_011:         Less than 20 Percent
+            A10026_012:         20 to 29 Percent
+            A10026_013:         30 Percent or More
+            A10026_014:      $50,000 to $74,999:
+            A10026_015:         Less than 20 Percent
+            A10026_016:         20 to 29 Percent
+            A10026_017:         30 Percent or More
+            A10026_018:      $75,000 or More:
+            A10026_019:         Less than 20 Percent
+            A10026_020:         20 to 29 Percent
+            A10026_021:         30 Percent or More
+            A10026_022:      Zero or Negative Income
+            A10026_023:      No Cash Rent
+
+
+
+
+
+Survey:           ACS 2021 (5-Year Estimates)
+Dataset:          American Community Survey 2021
+Tables:
+
+      1. Poverty Status In The Past 12 Months Of People In Housing Units
+         Universe:  Universe:  Population in housing units for whom poverty status is determined
+         Name:      B17101
+         Variables:
+            B17101001:   Total:
+            B17101002:      Income In The Past 12 Months Below Poverty Level
+            B17101003:      Income In The Past 12 Months At Or Above Poverty Level
+
+
+      2. Poverty Status In The Past 12 Months Of People In Housing Units
+         Universe:  Universe:  Population in housing units for whom poverty status is determined
+         Name:      B17101_se
+         Variables:
+            B17101001s:   Std. Error: Total:
+            B17101002s:      Std. Error: Income In The Past 12 Months Below Poverty Level
+            B17101003s:      Std. Error: Income In The Past 12 Months At Or Above Poverty Level
+
+
+      3. Median Monthly Housing Costs (Dollars)
+         Universe:  Universe:  Occupied housing units with monthly housing costs
+         Name:      B25105
+         Variables:
+            B25105001:   Median Monthly Housing Costs
+
+
+      4. Median Monthly Housing Costs (Dollars)
+         Universe:  Universe:  Occupied housing units with monthly housing costs
+         Name:      B25105_se
+         Variables:
+            B25105001s:   Std. Error: Median Monthly Housing Costs
+
+
+      5. Tenure By Housing Costs As A Percentage Of Household Income In The Past 12 Months
+         Universe:  Universe:  Occupied housing units
+         Name:      B25106
+         Variables:
+            B25106001:   Total:
+            B25106002:      Owner-Occupied Housing Units:
+            B25106003:         Less Than $20,000:
+            B25106004:            Less Than 20 Percent
+            B25106005:            20 To 29 Percent
+            B25106006:            30 Percent Or More
+            B25106007:         $20,000 To $34,999:
+            B25106008:            Less Than 20 Percent
+            B25106009:            20 To 29 Percent
+            B25106010:            30 Percent Or More
+            B25106011:         $35,000 To $49,999:
+            B25106012:            Less Than 20 Percent
+            B25106013:            20 To 29 Percent
+            B25106014:            30 Percent Or More
+            B25106015:         $50,000 To $74,999:
+            B25106016:            Less Than 20 Percent
+            B25106017:            20 To 29 Percent
+            B25106018:            30 Percent Or More
+            B25106019:         $75,000 Or More:
+            B25106020:            Less Than 20 Percent
+            B25106021:            20 To 29 Percent
+            B25106022:            30 Percent Or More
+            B25106023:         Zero Or Negative Income
+            B25106024:      Renter-Occupied Housing Units:
+            B25106025:         Less Than $20,000:
+            B25106026:            Less Than 20 Percent
+            B25106027:            20 To 29 Percent
+            B25106028:            30 Percent Or More
+            B25106029:         $20,000 To $34,999:
+            B25106030:            Less Than 20 Percent
+            B25106031:            20 To 29 Percent
+            B25106032:            30 Percent Or More
+            B25106033:         $35,000 To $49,999:
+            B25106034:            Less Than 20 Percent
+            B25106035:            20 To 29 Percent
+            B25106036:            30 Percent Or More
+            B25106037:         $50,000 To $74,999:
+            B25106038:            Less Than 20 Percent
+            B25106039:            20 To 29 Percent
+            B25106040:            30 Percent Or More
+            B25106041:         $75,000 Or More:
+            B25106042:            Less Than 20 Percent
+            B25106043:            20 To 29 Percent
+            B25106044:            30 Percent Or More
+            B25106045:         Zero Or Negative Income
+            B25106046:         No Cash Rent
+
+
+      6. Tenure By Housing Costs As A Percentage Of Household Income In The Past 12 Months
+         Universe:  Universe:  Occupied housing units
+         Name:      B25106_se
+         Variables:
+            B25106001s:   Std. Error: Total:
+            B25106002s:      Std. Error: Owner-Occupied Housing Units:
+            B25106003s:         Std. Error: Less Than $20,000:
+            B25106004s:            Std. Error: Less Than 20 Percent
+            B25106005s:            Std. Error: 20 To 29 Percent
+            B25106006s:            Std. Error: 30 Percent Or More
+            B25106007s:         Std. Error: $20,000 To $34,999:
+            B25106008s:            Std. Error: Less Than 20 Percent
+            B25106009s:            Std. Error: 20 To 29 Percent
+            B25106010s:            Std. Error: 30 Percent Or More
+            B25106011s:         Std. Error: $35,000 To $49,999:
+            B25106012s:            Std. Error: Less Than 20 Percent
+            B25106013s:            Std. Error: 20 To 29 Percent
+            B25106014s:            Std. Error: 30 Percent Or More
+            B25106015s:         Std. Error: $50,000 To $74,999:
+            B25106016s:            Std. Error: Less Than 20 Percent
+            B25106017s:            Std. Error: 20 To 29 Percent
+            B25106018s:            Std. Error: 30 Percent Or More
+            B25106019s:         Std. Error: $75,000 Or More:
+            B25106020s:            Std. Error: Less Than 20 Percent
+            B25106021s:            Std. Error: 20 To 29 Percent
+            B25106022s:            Std. Error: 30 Percent Or More
+            B25106023s:         Std. Error: Zero Or Negative Income
+            B25106024s:      Std. Error: Renter-Occupied Housing Units:
+            B25106025s:         Std. Error: Less Than $20,000:
+            B25106026s:            Std. Error: Less Than 20 Percent
+            B25106027s:            Std. Error: 20 To 29 Percent
+            B25106028s:            Std. Error: 30 Percent Or More
+            B25106029s:         Std. Error: $20,000 To $34,999:
+            B25106030s:            Std. Error: Less Than 20 Percent
+            B25106031s:            Std. Error: 20 To 29 Percent
+            B25106032s:            Std. Error: 30 Percent Or More
+            B25106033s:         Std. Error: $35,000 To $49,999:
+            B25106034s:            Std. Error: Less Than 20 Percent
+            B25106035s:            Std. Error: 20 To 29 Percent
+            B25106036s:            Std. Error: 30 Percent Or More
+            B25106037s:         Std. Error: $50,000 To $74,999:
+            B25106038s:            Std. Error: Less Than 20 Percent
+            B25106039s:            Std. Error: 20 To 29 Percent
+            B25106040s:            Std. Error: 30 Percent Or More
+            B25106041s:         Std. Error: $75,000 Or More:
+            B25106042s:            Std. Error: Less Than 20 Percent
+            B25106043s:            Std. Error: 20 To 29 Percent
+            B25106044s:            Std. Error: 30 Percent Or More
+            B25106045s:         Std. Error: Zero Or Negative Income
+            B25106046s:         Std. Error: No Cash Rent
+
+
+      7. Allocation Of Selected Monthly Owner Costs For Owner-Occupied Housing Units
+         Universe:  Universe:  Owner-occupied housing units 
+         Name:      B992523
+         Variables:
+            B992523001:   Total:
+            B992523002:      1 Or More Items Allocated
+            B992523003:      Not Allocated
+
+
+      8. Allocation Of Selected Monthly Owner Costs For Owner-Occupied Housing Units
+         Universe:  Universe:  Owner-occupied housing units 
+         Name:      B992523_se
+         Variables:
+            B992523001s:   Std. Error: Total:
+            B992523002s:      Std. Error: 1 Or More Items Allocated
+            B992523003s:      Std. Error: Not Allocated
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      FILEID:         File identification
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/AlaskaNative Area/ Hawaiian Home Land(Census)
+      AIANHHFP:       American Indian Area/AlaskaNative Area/ Hawaiian Home Land(FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian TribalSubdivision (Census)
+      AITS:           American Indian TribalSubdivision (FIPS)
+      ANRC:           Alaska Native RegionalCorporation (FIPS)
+      CBSA:           Metropolitan and MicropolitanStatistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area-Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/MicropolitanIndicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and TownCombined Statistical Area
+      NECTADIV:       New England City and Town AreaDivision
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area – 5%File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A14003B_001:    Renter-Occupied Housing Units
+      A14003B_002:    Renter-Occupied Housing Units: Less than $5,000
+      A14003B_003:    Renter-Occupied Housing Units: $5,000 to $9,999
+      A14003B_004:    Renter-Occupied Housing Units: $10,000 to $14,999
+      A14003B_005:    Renter-Occupied Housing Units: $15,000 to $19,999
+      A14003B_006:    Renter-Occupied Housing Units: $20,000 to $24,999
+      A14003B_007:    Renter-Occupied Housing Units: $25,000 to $34,999
+      A14003B_008:    Renter-Occupied Housing Units: $35,000 to $49,999
+      A14003B_009:    Renter-Occupied Housing Units: $50,000 to $74,999
+      A14003B_010:    Renter-Occupied Housing Units: $75,000 to $99,999
+      A14003B_011:    Renter-Occupied Housing Units: $100,000 to $149,999
+      A14003B_012:    Renter-Occupied Housing Units: $150,000 or More
+      A14016_001:     Median Household Income in the Past 12 Months (In Inflation-Adjusted Dollars) 
+      A10026_001:     Occupied Housing Units
+      A10026_002:     Occupied Housing Units: Less than $20,000
+      A10026_003:     Occupied Housing Units: Less than $20,000: Less than 20 Percent
+      A10026_004:     Occupied Housing Units: Less than $20,000: 20 to 29 Percent
+      A10026_005:     Occupied Housing Units: Less than $20,000: 30 Percent or More
+      A10026_006:     Occupied Housing Units: $20,000 to $34,999
+      A10026_007:     Occupied Housing Units: $20,000 to $34,999: Less than 20 Percent
+      A10026_008:     Occupied Housing Units: $20,000 to $34,999: 20 to 29 Percent
+      A10026_009:     Occupied Housing Units: $20,000 to $34,999: 30 Percent or More
+      A10026_010:     Occupied Housing Units: $35,000 to $49,999
+      A10026_011:     Occupied Housing Units: $35,000 to $49,999: Less than 20 Percent
+      A10026_012:     Occupied Housing Units: $35,000 to $49,999: 20 to 29 Percent
+      A10026_013:     Occupied Housing Units: $35,000 to $49,999: 30 Percent or More
+      A10026_014:     Occupied Housing Units: $50,000 to $74,999
+      A10026_015:     Occupied Housing Units: $50,000 to $74,999: Less than 20 Percent
+      A10026_016:     Occupied Housing Units: $50,000 to $74,999: 20 to 29 Percent
+      A10026_017:     Occupied Housing Units: $50,000 to $74,999: 30 Percent or More
+      A10026_018:     Occupied Housing Units: $75,000 or More
+      A10026_019:     Occupied Housing Units: $75,000 or More: Less than 20 Percent
+      A10026_020:     Occupied Housing Units: $75,000 or More: 20 to 29 Percent
+      A10026_021:     Occupied Housing Units: $75,000 or More: 30 Percent or More
+      A10026_022:     Occupied Housing Units: Zero or Negative Income
+      A10026_023:     Occupied Housing Units: No Cash Rent
+      B17101001:      Total
+      B17101002:      Total: Income In The Past 12 Months Below Poverty Level
+      B17101003:      Total: Income In The Past 12 Months At Or Above Poverty Level
+      B17101001s:     Std. Error: Total
+      B17101002s:     Std. Error: Total: Income In The Past 12 Months Below Poverty Level
+      B17101003s:     Std. Error: Total: Income In The Past 12 Months At Or Above Poverty Level
+      B25105001:      Median Monthly Housing Costs
+      B25105001s:     Std. Error: Median Monthly Housing Costs
+      B25106001:      Total
+      B25106002:      Total: Owner-Occupied Housing Units
+      B25106003:      Total: Owner-Occupied Housing Units: Less Than $20000
+      B25106004:      Total: Owner-Occupied Housing Units: Less Than $20000: Less Than 20 Percent
+      B25106005:      Total: Owner-Occupied Housing Units: Less Than $20000: 20 To 29 Percent
+      B25106006:      Total: Owner-Occupied Housing Units: Less Than $20000: 30 Percent Or More
+      B25106007:      Total:  $20000 To $34999
+      B25106008:      Total:  $20000 To $34999: Less Than 20 Percent
+      B25106009:      Total:  $20000 To $34999: 20 To 29 Percent
+      B25106010:      Total:  $20000 To $34999: 30 Percent Or More
+      B25106011:      Total:  $35000 To $49999
+      B25106012:      Total:  $35000 To $49999: Less Than 20 Percent
+      B25106013:      Total:  $35000 To $49999: 20 To 29 Percent
+      B25106014:      Total:  $35000 To $49999: 30 Percent Or More
+      B25106015:      Total:  $50000 To $74999
+      B25106016:      Total:  $50000 To $74999: Less Than 20 Percent
+      B25106017:      Total:  $50000 To $74999: 20 To 29 Percent
+      B25106018:      Total:  $50000 To $74999: 30 Percent Or More
+      B25106019:      Total:  $75000 Or More
+      B25106020:      Total:  $75000 Or More: Less Than 20 Percent
+      B25106021:      Total:  $75000 Or More: 20 To 29 Percent
+      B25106022:      Total:  $75000 Or More: 30 Percent Or More
+      B25106023:      Total:  Zero Or Negative Income
+      B25106024:      Total: Renter-Occupied Housing Units
+      B25106025:      Total: Renter-Occupied Housing Units: Less Than $20000
+      B25106026:      Total: Renter-Occupied Housing Units: Less Than $20000: Less Than 20 Percent
+      B25106027:      Total: Renter-Occupied Housing Units: Less Than $20000: 20 To 29 Percent
+      B25106028:      Total: Renter-Occupied Housing Units: Less Than $20000: 30 Percent Or More
+      B25106029:      Total:  $20000 To $34999
+      B25106030:      Total:  $20000 To $34999: Less Than 20 Percent
+      B25106031:      Total:  $20000 To $34999: 20 To 29 Percent
+      B25106032:      Total:  $20000 To $34999: 30 Percent Or More
+      B25106033:      Total:  $35000 To $49999
+      B25106034:      Total:  $35000 To $49999: Less Than 20 Percent
+      B25106035:      Total:  $35000 To $49999: 20 To 29 Percent
+      B25106036:      Total:  $35000 To $49999: 30 Percent Or More
+      B25106037:      Total:  $50000 To $74999
+      B25106038:      Total:  $50000 To $74999: Less Than 20 Percent
+      B25106039:      Total:  $50000 To $74999: 20 To 29 Percent
+      B25106040:      Total:  $50000 To $74999: 30 Percent Or More
+      B25106041:      Total:  $75000 Or More
+      B25106042:      Total:  $75000 Or More: Less Than 20 Percent
+      B25106043:      Total:  $75000 Or More: 20 To 29 Percent
+      B25106044:      Total:  $75000 Or More: 30 Percent Or More
+      B25106045:      Total:  Zero Or Negative Income
+      B25106046:      Total:  No Cash Rent
+      B25106001s:     Std. Error: Total
+      B25106002s:     Std. Error: Total: Owner-Occupied Housing Units
+      B25106003s:     Std. Error: Total: Owner-Occupied Housing Units: Less Than $20000
+      B25106004s:     Std. Error: Total: Owner-Occupied Housing Units: Less Than $20000: Less Than 20 Percent
+      B25106005s:     Std. Error: Total: Owner-Occupied Housing Units: Less Than $20000: 20 To 29 Percent
+      B25106006s:     Std. Error: Total: Owner-Occupied Housing Units: Less Than $20000: 30 Percent Or More
+      B25106007s:     Std. Error: Total:  $20000 To $34999
+      B25106008s:     Std. Error: Total:  $20000 To $34999: Less Than 20 Percent
+      B25106009s:     Std. Error: Total:  $20000 To $34999: 20 To 29 Percent
+      B25106010s:     Std. Error: Total:  $20000 To $34999: 30 Percent Or More
+      B25106011s:     Std. Error: Total:  $35000 To $49999
+      B25106012s:     Std. Error: Total:  $35000 To $49999: Less Than 20 Percent
+      B25106013s:     Std. Error: Total:  $35000 To $49999: 20 To 29 Percent
+      B25106014s:     Std. Error: Total:  $35000 To $49999: 30 Percent Or More
+      B25106015s:     Std. Error: Total:  $50000 To $74999
+      B25106016s:     Std. Error: Total:  $50000 To $74999: Less Than 20 Percent
+      B25106017s:     Std. Error: Total:  $50000 To $74999: 20 To 29 Percent
+      B25106018s:     Std. Error: Total:  $50000 To $74999: 30 Percent Or More
+      B25106019s:     Std. Error: Total:  $75000 Or More
+      B25106020s:     Std. Error: Total:  $75000 Or More: Less Than 20 Percent
+      B25106021s:     Std. Error: Total:  $75000 Or More: 20 To 29 Percent
+      B25106022s:     Std. Error: Total:  $75000 Or More: 30 Percent Or More
+      B25106023s:     Std. Error: Total:  Zero Or Negative Income
+      B25106024s:     Std. Error: Total: Renter-Occupied Housing Units
+      B25106025s:     Std. Error: Total: Renter-Occupied Housing Units: Less Than $20000
+      B25106026s:     Std. Error: Total: Renter-Occupied Housing Units: Less Than $20000: Less Than 20 Percent
+      B25106027s:     Std. Error: Total: Renter-Occupied Housing Units: Less Than $20000: 20 To 29 Percent
+      B25106028s:     Std. Error: Total: Renter-Occupied Housing Units: Less Than $20000: 30 Percent Or More
+      B25106029s:     Std. Error: Total:  $20000 To $34999
+      B25106030s:     Std. Error: Total:  $20000 To $34999: Less Than 20 Percent
+      B25106031s:     Std. Error: Total:  $20000 To $34999: 20 To 29 Percent
+      B25106032s:     Std. Error: Total:  $20000 To $34999: 30 Percent Or More
+      B25106033s:     Std. Error: Total:  $35000 To $49999
+      B25106034s:     Std. Error: Total:  $35000 To $49999: Less Than 20 Percent
+      B25106035s:     Std. Error: Total:  $35000 To $49999: 20 To 29 Percent
+      B25106036s:     Std. Error: Total:  $35000 To $49999: 30 Percent Or More
+      B25106037s:     Std. Error: Total:  $50000 To $74999
+      B25106038s:     Std. Error: Total:  $50000 To $74999: Less Than 20 Percent
+      B25106039s:     Std. Error: Total:  $50000 To $74999: 20 To 29 Percent
+      B25106040s:     Std. Error: Total:  $50000 To $74999: 30 Percent Or More
+      B25106041s:     Std. Error: Total:  $75000 Or More
+      B25106042s:     Std. Error: Total:  $75000 Or More: Less Than 20 Percent
+      B25106043s:     Std. Error: Total:  $75000 Or More: 20 To 29 Percent
+      B25106044s:     Std. Error: Total:  $75000 Or More: 30 Percent Or More
+      B25106045s:     Std. Error: Total:  Zero Or Negative Income
+      B25106046s:     Std. Error: Total:  No Cash Rent
+      B992523001:     Total
+      B992523002:     Total: 1 Or More Items Allocated
+      B992523003:     Total: Not Allocated
+      B992523001s:    Std. Error: Total
+      B992523002s:    Std. Error: Total: 1 Or More Items Allocated
+      B992523003s:    Std. Error: Total: Not Allocated
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2023
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13284583
+
+If you have any questions contact info@socialexplorer.com

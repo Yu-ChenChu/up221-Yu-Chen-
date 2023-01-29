@@ -1,0 +1,292 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13283899
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2021 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2021 (5-Year Estimates)
+Tables:
+
+      1. Average Household Size
+         Universe:  Occupied Households
+         Name:      A10003
+         Variables:
+            A10003_001:   Average Household Size
+
+
+      2. Household Size (Renter-Occupied Housing Units)
+         Universe:  Universe:  Renter-Occupied Housing Units
+         Name:      A10002B
+         Variables:
+            A10002B_001:   Renter-Occupied Housing Units:
+            A10002B_002:      1-Person Household
+            A10002B_003:      2-Person Household
+            A10002B_004:      3-Person Household
+            A10002B_005:      4-Person Household
+            A10002B_006:      5-Person Household
+            A10002B_007:      6-Person Household
+            A10002B_008:      7-or-More Person Household
+
+
+
+
+
+Survey:           ACS 2021 (5-Year Estimates)
+Dataset:          American Community Survey 2021
+Tables:
+
+      1. Tenure By Household Size
+         Universe:  Universe:  Occupied housing units
+         Name:      B25009
+         Variables:
+            B25009001:   Total:
+            B25009002:      Owner Occupied:
+            B25009003:         1-Person Household
+            B25009004:         2-Person Household
+            B25009005:         3-Person Household
+            B25009006:         4-Person Household
+            B25009007:         5-Person Household
+            B25009008:         6-Person Household
+            B25009009:         7-Or-More Person Household
+            B25009010:      Renter Occupied:
+            B25009011:         1-Person Household
+            B25009012:         2-Person Household
+            B25009013:         3-Person Household
+            B25009014:         4-Person Household
+            B25009015:         5-Person Household
+            B25009016:         6-Person Household
+            B25009017:         7-Or-More Person Household
+
+
+      2. Tenure By Household Size
+         Universe:  Universe:  Occupied housing units
+         Name:      B25009_se
+         Variables:
+            B25009001s:   Std. Error: Total:
+            B25009002s:      Std. Error: Owner Occupied:
+            B25009003s:         Std. Error: 1-Person Household
+            B25009004s:         Std. Error: 2-Person Household
+            B25009005s:         Std. Error: 3-Person Household
+            B25009006s:         Std. Error: 4-Person Household
+            B25009007s:         Std. Error: 5-Person Household
+            B25009008s:         Std. Error: 6-Person Household
+            B25009009s:         Std. Error: 7-Or-More Person Household
+            B25009010s:      Std. Error: Renter Occupied:
+            B25009011s:         Std. Error: 1-Person Household
+            B25009012s:         Std. Error: 2-Person Household
+            B25009013s:         Std. Error: 3-Person Household
+            B25009014s:         Std. Error: 4-Person Household
+            B25009015s:         Std. Error: 5-Person Household
+            B25009016s:         Std. Error: 6-Person Household
+            B25009017s:         Std. Error: 7-Or-More Person Household
+
+
+      3. Median Household Income In The Past 12 Months (In <DollarYear> Inflation-Adjusted Dollars) By Household Size
+         Universe:  Universe:  Households
+         Name:      B19019
+         Variables:
+            B19019001:    Total:
+            B19019002:       1-Person Households
+            B19019003:       2-Person Households
+            B19019004:       3-Person Households
+            B19019005:       4-Person Households
+            B19019006:       5-Person Households
+            B19019007:       6-Person Households
+            B19019008:       7-Or-More-Person Households
+
+
+      4. Median Household Income In The Past 12 Months (In <DollarYear> Inflation-Adjusted Dollars) By Household Size
+         Universe:  Universe:  Households
+         Name:      B19019_se
+         Variables:
+            B19019001s:   Std. Error:  Total:
+            B19019002s:      Std. Error:  1-Person Households
+            B19019003s:      Std. Error:  2-Person Households
+            B19019004s:      Std. Error:  3-Person Households
+            B19019005s:      Std. Error:  4-Person Households
+            B19019006s:      Std. Error:  5-Person Households
+            B19019007s:      Std. Error:  6-Person Households
+            B19019008s:      Std. Error:  7-Or-More-Person Households
+
+
+      5. Average Household Size Of Occupied Housing Units By Tenure
+         Universe:  Universe:  Occupied housing units
+         Name:      B25010
+         Variables:
+            B25010001:   Total:
+            B25010002:         Owner Occupied
+            B25010003:         Renter Occupied
+
+
+      6. Average Household Size Of Occupied Housing Units By Tenure
+         Universe:  Universe:  Occupied housing units
+         Name:      B25010_se
+         Variables:
+            B25010001s:   Std. Error: Total:
+            B25010002s:         Std. Error: Owner Occupied
+            B25010003s:         Std. Error: Renter Occupied
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      FILEID:         File identification
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/AlaskaNative Area/ Hawaiian Home Land(Census)
+      AIANHHFP:       American Indian Area/AlaskaNative Area/ Hawaiian Home Land(FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian TribalSubdivision (Census)
+      AITS:           American Indian TribalSubdivision (FIPS)
+      ANRC:           Alaska Native RegionalCorporation (FIPS)
+      CBSA:           Metropolitan and MicropolitanStatistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area-Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/MicropolitanIndicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and TownCombined Statistical Area
+      NECTADIV:       New England City and Town AreaDivision
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area – 5%File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A10003_001:     Average Household Size
+      A10002B_001:    Renter-Occupied Housing Units
+      A10002B_002:    Renter-Occupied Housing Units: 1-Person Household
+      A10002B_003:    Renter-Occupied Housing Units: 2-Person Household
+      A10002B_004:    Renter-Occupied Housing Units: 3-Person Household
+      A10002B_005:    Renter-Occupied Housing Units: 4-Person Household
+      A10002B_006:    Renter-Occupied Housing Units: 5-Person Household
+      A10002B_007:    Renter-Occupied Housing Units: 6-Person Household
+      A10002B_008:    Renter-Occupied Housing Units: 7-or-More Person Household
+      B25009001:      Total
+      B25009002:      Total: Owner Occupied
+      B25009003:      Total: Owner Occupied: 1-Person Household
+      B25009004:      Total: Owner Occupied: 2-Person Household
+      B25009005:      Total: Owner Occupied: 3-Person Household
+      B25009006:      Total: Owner Occupied: 4-Person Household
+      B25009007:      Total: Owner Occupied: 5-Person Household
+      B25009008:      Total: Owner Occupied: 6-Person Household
+      B25009009:      Total: Owner Occupied: 7-Or-More Person Household
+      B25009010:      Total: Renter Occupied
+      B25009011:      Total: Renter Occupied: 1-Person Household
+      B25009012:      Total: Renter Occupied: 2-Person Household
+      B25009013:      Total: Renter Occupied: 3-Person Household
+      B25009014:      Total: Renter Occupied: 4-Person Household
+      B25009015:      Total: Renter Occupied: 5-Person Household
+      B25009016:      Total: Renter Occupied: 6-Person Household
+      B25009017:      Total: Renter Occupied: 7-Or-More Person Household
+      B25009001s:     Std. Error: Total
+      B25009002s:     Std. Error: Total: Owner Occupied
+      B25009003s:     Std. Error: Total: Owner Occupied: 1-Person Household
+      B25009004s:     Std. Error: Total: Owner Occupied: 2-Person Household
+      B25009005s:     Std. Error: Total: Owner Occupied: 3-Person Household
+      B25009006s:     Std. Error: Total: Owner Occupied: 4-Person Household
+      B25009007s:     Std. Error: Total: Owner Occupied: 5-Person Household
+      B25009008s:     Std. Error: Total: Owner Occupied: 6-Person Household
+      B25009009s:     Std. Error: Total: Owner Occupied: 7-Or-More Person Household
+      B25009010s:     Std. Error: Total: Renter Occupied
+      B25009011s:     Std. Error: Total: Renter Occupied: 1-Person Household
+      B25009012s:     Std. Error: Total: Renter Occupied: 2-Person Household
+      B25009013s:     Std. Error: Total: Renter Occupied: 3-Person Household
+      B25009014s:     Std. Error: Total: Renter Occupied: 4-Person Household
+      B25009015s:     Std. Error: Total: Renter Occupied: 5-Person Household
+      B25009016s:     Std. Error: Total: Renter Occupied: 6-Person Household
+      B25009017s:     Std. Error: Total: Renter Occupied: 7-Or-More Person Household
+      B19019001:       Total
+      B19019002:       Total:  1-Person Households
+      B19019003:       Total:  2-Person Households
+      B19019004:       Total:  3-Person Households
+      B19019005:       Total:  4-Person Households
+      B19019006:       Total:  5-Person Households
+      B19019007:       Total:  6-Person Households
+      B19019008:       Total:  7-Or-More-Person Households
+      B19019001s:     Std. Error:  Total
+      B19019002s:     Std. Error:  Total:  1-Person Households
+      B19019003s:     Std. Error:  Total:  2-Person Households
+      B19019004s:     Std. Error:  Total:  3-Person Households
+      B19019005s:     Std. Error:  Total:  4-Person Households
+      B19019006s:     Std. Error:  Total:  5-Person Households
+      B19019007s:     Std. Error:  Total:  6-Person Households
+      B19019008s:     Std. Error:  Total:  7-Or-More-Person Households
+      B25010001:      Total
+      B25010002:      Total:  Owner Occupied
+      B25010003:      Total:  Renter Occupied
+      B25010001s:     Std. Error: Total
+      B25010002s:     Std. Error: Total:  Owner Occupied
+      B25010003s:     Std. Error: Total:  Renter Occupied
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2023
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13283899
+
+If you have any questions contact info@socialexplorer.com

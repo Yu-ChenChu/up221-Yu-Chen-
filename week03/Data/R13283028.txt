@@ -1,0 +1,253 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13283028
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2021 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2021 (5-Year Estimates)
+Tables:
+
+      1. Ratio of Income in 2020 to Poverty Level
+         Universe:  Population for whom poverty status Is determined
+         Name:      A13004
+         Variables:
+            A13004_001:   Population for Whom Poverty Status Is Determined:
+            A13004_002:      Under .50
+            A13004_003:      .50 to .74
+            A13004_004:      .75 to .99
+            A13004_005:      1.00 to 1.49
+            A13004_006:      1.50 to 1.99
+            A13004_007:      2.00 and Over
+
+
+      2. Aggregate Household Income (In <DollarYear> Inflation Adjusted Dollars)
+         Universe:  Households
+         Name:      A14018
+         Variables:
+            A14018_001:   Aggregate Household Income (In 2021 Inflation Adjusted Dollars)
+
+
+      3. Average Household Income by Race (In <DollarYear> Inflation Adjusted Dollars)
+         Universe:  Households by Race
+         Name:      A14009
+         Variables:
+            A14009_001:   Average Household Income (In 2021 Inflation Adjusted Dollars):
+            A14009_002:      White Alone Householder
+            A14009_003:      Black or African American Alone Householder
+            A14009_004:      American Indian and Alaska Native Alone  Householder
+            A14009_005:      Asian Alone
+            A14009_006:      Native Hawaiian and Other Pacific Islander Alone  Householder
+            A14009_007:      Some Other Race Alone Householder
+            A14009_008:      Two or More Races Householder
+            A14009_009:      Hispanic or Latino Householder
+            A14009_010:      White Alone Householder, Not Hispanic or Latino
+
+
+      4. Housing Units by Housing Costs as a Percentage of Household Income in the Past 12 Months
+         Universe:  Universe:  Occupied housing units
+         Name:      A10026
+         Variables:
+            A10026_001:   Occupied Housing Units:
+            A10026_002:      Less than $20,000:
+            A10026_003:         Less than 20 Percent
+            A10026_004:         20 to 29 Percent
+            A10026_005:         30 Percent or More
+            A10026_006:      $20,000 to $34,999:
+            A10026_007:         Less than 20 Percent
+            A10026_008:         20 to 29 Percent
+            A10026_009:         30 Percent or More
+            A10026_010:      $35,000 to $49,999:
+            A10026_011:         Less than 20 Percent
+            A10026_012:         20 to 29 Percent
+            A10026_013:         30 Percent or More
+            A10026_014:      $50,000 to $74,999:
+            A10026_015:         Less than 20 Percent
+            A10026_016:         20 to 29 Percent
+            A10026_017:         30 Percent or More
+            A10026_018:      $75,000 or More:
+            A10026_019:         Less than 20 Percent
+            A10026_020:         20 to 29 Percent
+            A10026_021:         30 Percent or More
+            A10026_022:      Zero or Negative Income
+            A10026_023:      No Cash Rent
+
+
+      5. Household Income (In <DollarYear> Inflation Adjusted Dollars)
+         Universe:  Households
+         Name:      A14001
+         Variables:
+            A14001_001:   Households:
+            A14001_002:      Less than $10,000
+            A14001_003:      $10,000 to $14,999
+            A14001_004:      $15,000 to $19,999
+            A14001_005:      $20,000 to $24,999
+            A14001_006:      $25,000 to $29,999
+            A14001_007:      $30,000 to $34,999
+            A14001_008:      $35,000 to $39,999
+            A14001_009:      $40,000 to $44,999
+            A14001_010:      $45,000 to $49,999
+            A14001_011:      $50,000 to $59,999
+            A14001_012:      $60,000 to $74,999
+            A14001_013:      $75,000 to $99,999
+            A14001_014:      $100,000 to $124,999
+            A14001_015:      $125,000 to $149,999
+            A14001_016:      $150,000 to $199,999
+            A14001_017:      $200,000 or More
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      FILEID:         File identification
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/AlaskaNative Area/ Hawaiian Home Land(Census)
+      AIANHHFP:       American Indian Area/AlaskaNative Area/ Hawaiian Home Land(FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian TribalSubdivision (Census)
+      AITS:           American Indian TribalSubdivision (FIPS)
+      ANRC:           Alaska Native RegionalCorporation (FIPS)
+      CBSA:           Metropolitan and MicropolitanStatistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area-Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/MicropolitanIndicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and TownCombined Statistical Area
+      NECTADIV:       New England City and Town AreaDivision
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area – 5%File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A13004_001:     Population for Whom Poverty Status Is Determined:
+      A13004_002:     Population for Whom Poverty Status Is Determined: Under .50
+      A13004_003:     Population for Whom Poverty Status Is Determined: .50 to .74
+      A13004_004:     Population for Whom Poverty Status Is Determined: .75 to .99
+      A13004_005:     Population for Whom Poverty Status Is Determined: 1.00 to 1.49
+      A13004_006:     Population for Whom Poverty Status Is Determined: 1.50 to 1.99
+      A13004_007:     Population for Whom Poverty Status Is Determined: 2.00 and Over
+      A14018_001:     Aggregate Household Income (In 2021 Inflation Adjusted Dollars)
+      A14009_001:     Average Household Income (In 2021 Inflation Adjusted Dollars):
+      A14009_002:     Average Household Income (In 2021 Inflation Adjusted Dollars): White Alone Householder
+      A14009_003:     Average Household Income (In 2021 Inflation Adjusted Dollars): Black or African American Alone Householder
+      A14009_004:     Average Household Income (In 2021 Inflation Adjusted Dollars): American Indian and Alaska Native Alone  Householder
+      A14009_005:     Average Household Income (In 2021 Inflation Adjusted Dollars): Asian Alone
+      A14009_006:     Average Household Income (In 2021 Inflation Adjusted Dollars): Native Hawaiian and Other Pacific Islander Alone  Householder
+      A14009_007:     Average Household Income (In 2021 Inflation Adjusted Dollars): Some Other Race Alone Householder
+      A14009_008:     Average Household Income (In 2021 Inflation Adjusted Dollars): Two or More Races Householder
+      A14009_009:     Average Household Income (In 2021 Inflation Adjusted Dollars): Hispanic or Latino Householder
+      A14009_010:     Average Household Income (In 2021 Inflation Adjusted Dollars): White Alone Householder, Not Hispanic or Latino
+      A10026_001:     Occupied Housing Units
+      A10026_002:     Occupied Housing Units: Less than $20,000
+      A10026_003:     Occupied Housing Units: Less than $20,000: Less than 20 Percent
+      A10026_004:     Occupied Housing Units: Less than $20,000: 20 to 29 Percent
+      A10026_005:     Occupied Housing Units: Less than $20,000: 30 Percent or More
+      A10026_006:     Occupied Housing Units: $20,000 to $34,999
+      A10026_007:     Occupied Housing Units: $20,000 to $34,999: Less than 20 Percent
+      A10026_008:     Occupied Housing Units: $20,000 to $34,999: 20 to 29 Percent
+      A10026_009:     Occupied Housing Units: $20,000 to $34,999: 30 Percent or More
+      A10026_010:     Occupied Housing Units: $35,000 to $49,999
+      A10026_011:     Occupied Housing Units: $35,000 to $49,999: Less than 20 Percent
+      A10026_012:     Occupied Housing Units: $35,000 to $49,999: 20 to 29 Percent
+      A10026_013:     Occupied Housing Units: $35,000 to $49,999: 30 Percent or More
+      A10026_014:     Occupied Housing Units: $50,000 to $74,999
+      A10026_015:     Occupied Housing Units: $50,000 to $74,999: Less than 20 Percent
+      A10026_016:     Occupied Housing Units: $50,000 to $74,999: 20 to 29 Percent
+      A10026_017:     Occupied Housing Units: $50,000 to $74,999: 30 Percent or More
+      A10026_018:     Occupied Housing Units: $75,000 or More
+      A10026_019:     Occupied Housing Units: $75,000 or More: Less than 20 Percent
+      A10026_020:     Occupied Housing Units: $75,000 or More: 20 to 29 Percent
+      A10026_021:     Occupied Housing Units: $75,000 or More: 30 Percent or More
+      A10026_022:     Occupied Housing Units: Zero or Negative Income
+      A10026_023:     Occupied Housing Units: No Cash Rent
+      A14001_001:     Households:
+      A14001_002:     Households: Less than $10,000
+      A14001_003:     Households: $10,000 to $14,999
+      A14001_004:     Households: $15,000 to $19,999
+      A14001_005:     Households: $20,000 to $24,999
+      A14001_006:     Households: $25,000 to $29,999
+      A14001_007:     Households: $30,000 to $34,999
+      A14001_008:     Households: $35,000 to $39,999
+      A14001_009:     Households: $40,000 to $44,999
+      A14001_010:     Households: $45,000 to $49,999
+      A14001_011:     Households: $50,000 to $59,999
+      A14001_012:     Households: $60,000 to $74,999
+      A14001_013:     Households: $75,000 to $99,999
+      A14001_014:     Households: $100,000 to $124,999
+      A14001_015:     Households: $125,000 to $149,999
+      A14001_016:     Households: $150,000 to $199,999
+      A14001_017:     Households: $200,000 or More
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2023
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13283028
+
+If you have any questions contact info@socialexplorer.com
